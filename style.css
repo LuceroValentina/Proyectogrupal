@@ -65,3 +65,30 @@ img {
     justify-content: right;
     right: 10px;
 }
+
+.inicio{
+    display: flex;
+    justify-content: center;
+}
+a{
+    color: beige;
+    text-decoration: none;
+}
+.nuestraHistoria{
+    justify-items: center;
+    margin-top: 30%;
+}
+.Link1{
+    margin-right: 200px;
+}
+.Link3{
+    margin-left: 200px;
+}
+.teCuento{
+    width: 900px;
+    height: 50px;
+}
+.nosotras{
+    width: 900px;
+    height: 50px;
+}
