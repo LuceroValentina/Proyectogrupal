@@ -16,23 +16,13 @@ h1 {
 
 /*grid para que las imagenes tengan las mismas formas*/
 
-section {
-    width: 100%;
-    height: 100vh;
-    display: grid;
+.contenedor {
+    display: flex;
     overflow-x: scroll;
     scroll-snap-type: x mandatory;
-    grid-template-columns: 300px 300px 300px 300px 300px 300px 300px 300px;
-    grid-template-rows: 270px;
 }
 
-section img {
-    width: 100%;
-    display: grid;
-    object-fit: cover;
-}
-
-img {
+.imagen {
     width: 200px;
     height: 270px;
 }
@@ -66,29 +56,39 @@ img {
     right: 10px;
 }
 
-.inicio{
+.inicio {
     display: flex;
     justify-content: center;
 }
-a{
+
+a {
     color: beige;
     text-decoration: none;
 }
-.nuestraHistoria{
-    justify-items: center;
-    margin-top: 30%;
+
+.nuestraHistoria {
+    font-family: 'Dancing Script', sans-serif;
+    text-align: center;
+    margin-top: 10%;
 }
-.Link1{
+
+.textonosotras {
+    font-family: 'Dancing Script', sans-serif;
+    text-align: center;
+}
+
+.teCuento {
+    text-align: center;
+}
+
+.Link1 {
     margin-right: 200px;
 }
-.Link3{
+
+.Link3 {
     margin-left: 200px;
 }
-.teCuento{
-    width: 900px;
-    height: 50px;
-}
-.nosotras{
-    width: 900px;
-    height: 50px;
+
+.nosotras {
+    text-align: center;
 }
