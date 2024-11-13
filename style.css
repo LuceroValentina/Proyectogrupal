@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@300&display=swap');
-* {
+body {
     background-color: rgb(211, 190, 151);
 }
 
-h1 {
+.nombre h1 {
     text-align: center;
     font-family: 'Dancing Script', sans-serif;
     font-size: 50px;
@@ -16,15 +16,63 @@ h1 {
 
 /*grid para que las imagenes tengan las mismas formas*/
 
-.contenedor {
+.contenedor-imagenes {
     display: flex;
     overflow-x: scroll;
     scroll-snap-type: x mandatory;
+    width: 1000px;
+    height: 300px;
+    margin-left: 10%;
 }
 
-.imagen {
+.imagen1 {
+    width: 220px;
+    height: 280px;
+    margin-left: 4px;
+}
+
+.imagen2 {
+    width: 220px;
+    height: 280px;
+    margin-left: 4px;
+}
+
+.imagen3 {
+    width: 220px;
+    height: 280px;
+    margin-left: 4px;
+}
+
+.imagen4 {
+    width: 220px;
+    height: 280px;
+    margin-left: 4px;
+}
+
+.imagen5 {
+    width: 220px;
+    height: 280px;
+    margin-left: 4px;
+}
+
+.contenedor-imagen {
+    display: flex;
+}
+
+.contenido {
+    background-color: rgb(207, 167, 106);
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+    position: absolute;
     width: 200px;
-    height: 270px;
+    height: 280px;
+    margin-left: 4px;
+    text-align: center;
+}
+
+.contenido:hover {
+    opacity: 0.8;
 }
 
 .titulo {
