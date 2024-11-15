@@ -107,6 +107,7 @@ body {
 .inicio {
     display: flex;
     justify-content: center;
+    gap: 100px;
 }
 
 a {
@@ -129,12 +130,15 @@ a {
     text-align: center;
 }
 
-.Link1 {
-    margin-right: 200px;
+.Link{
+    padding: 10px 20px;
+    background-color: rgb(145, 84, 49);
+    border-radius: 15px;
 }
-
-.Link3 {
-    margin-left: 200px;
+.Link:hover{
+    background-color: rgb(120, 69, 39);
+    border-radius: 15px;
+    transform: scale(1.1);
 }
 
 .nosotras {
