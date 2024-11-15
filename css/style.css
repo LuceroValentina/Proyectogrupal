@@ -144,3 +144,15 @@ a {
 .nosotras {
     text-align: center;
 }
+
+.LwrLink{
+    padding: 10px 20px;
+    background-color: rgb(145, 84, 49);
+    border-radius: 15px;
+    width: 150px;
+}
+.LwrLink:hover{
+    background-color: rgb(163, 102, 67);
+    border-radius: 15px;
+    /*transform: scale(1.1);*/
+}
