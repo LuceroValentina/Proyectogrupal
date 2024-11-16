@@ -168,8 +168,17 @@ a {
 }
 
 fieldset {
+    border: 2px solid #382405;
+    border-radius: 10px;
+    transition: border-color 0.3s, box-shadow 0.3s;
     border: 2px dashed #412906;
     border-radius: 5px;
+}
+
+fieldset:hover {
+    border-color: rgb(145, 84, 49);
+    box-shadow: 0 0 10px rgb(145, 84, 49);
+}
 }
 
 .Lwrformulario1 {
