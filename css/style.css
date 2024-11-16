@@ -156,3 +156,38 @@ a {
     border-radius: 15px;
     /*transform: scale(1.1);*/
 }
+
+.Lwrtítulo {
+    text-align: center;
+    color: rgb(75, 47, 6);
+}
+
+.Lwrformulario {
+    text-align: center;
+    color: rgb(94, 52, 24);
+}
+
+fieldset {
+    border: 2px dashed #412906;
+    border-radius: 5px;
+}
+
+.Lwrformulario1 {
+    color: rgb(112, 61, 32);
+}
+
+button {
+    background-color: rgb(145, 84, 49); 
+    color: #bdaf99;
+    border: none;
+    padding: 5px 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3 ease;
+    font-family: initial;
+}
+
+button:hover {
+    background-color: rgb(44, 26, 3);
+}
