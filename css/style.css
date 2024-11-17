@@ -84,11 +84,16 @@ body {
     color: rgb(145, 84, 49);
 }
 
+.minicont {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
 .sub {
     display: grid;
+    grid-template-rows: 1fr 2fr;
     font-family: 'Playfair Display', sans-serif;
     font-size: 19px;
-    color: rgb(rgb(236, 100, 15));
 }
 
 .texto {
@@ -130,12 +135,13 @@ a {
     text-align: center;
 }
 
-.Link{
+.Link {
     padding: 10px 20px;
     background-color: rgb(145, 84, 49);
     border-radius: 15px;
 }
-.Link:hover{
+
+.Link:hover {
     background-color: rgb(120, 69, 39);
     border-radius: 15px;
     transform: scale(1.1);
@@ -145,13 +151,14 @@ a {
     text-align: center;
 }
 
-.LwrLink{
+.LwrLink {
     padding: 10px 20px;
     background-color: rgb(145, 84, 49);
     border-radius: 15px;
     width: 150px;
 }
-.LwrLink:hover{
+
+.LwrLink:hover {
     background-color: rgb(163, 102, 67);
     border-radius: 15px;
     /*transform: scale(1.1);*/
@@ -179,14 +186,13 @@ fieldset:hover {
     border-color: rgb(145, 84, 49);
     box-shadow: 0 0 10px rgb(145, 84, 49);
 }
-}
 
 .Lwrformulario1 {
     color: rgb(112, 61, 32);
 }
 
 button {
-    background-color: rgb(145, 84, 49); 
+    background-color: rgb(145, 84, 49);
     color: #bdaf99;
     border: none;
     padding: 5px 5px;
