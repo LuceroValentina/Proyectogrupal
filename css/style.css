@@ -10,7 +10,7 @@ body {
     font-family: 'Dancing Script', sans-serif;
     font-size: 50px;
     background-color: white;
-    color: rgb(145, 84, 49);
+    color: #33260E;
 }
 
 
@@ -81,7 +81,11 @@ body {
     font-size: 20px;
     text-align: center;
     font-weight: bold;
-    color: rgb(145, 84, 49);
+    color: #3B301C;
+}
+
+h3 {
+    color: #3B301C;
 }
 
 .minicont {
@@ -109,6 +113,29 @@ body {
     right: 10px;
 }
 
+.click {
+    display: grid;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    background-color: #6E614B;
+    font-size: 20px;
+    font-weight: bold;
+    opacity: 90%;
+}
+
+.foto {
+    border-radius: 10%;
+}
+
+.foto:hover {
+    height: 185px;
+    width: 300px;
+    z-index: 2;
+}
+
 .inicio {
     display: flex;
     justify-content: center;
@@ -124,11 +151,13 @@ a {
     font-family: 'Dancing Script', sans-serif;
     text-align: center;
     margin-top: 10%;
+    color: #3B301C;
 }
 
 .textonosotras {
     font-family: 'Dancing Script', sans-serif;
     text-align: center;
+    color: #3B301C;
 }
 
 .teCuento {
