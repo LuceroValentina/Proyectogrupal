@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@300&display=swap');
+body {
+    background-color: rgb(211, 190, 151);
+}
+
+.nombre h1 {
+    text-align: center;
+    font-family: 'Dancing Script', sans-serif;
+    font-size: 50px;
+    background-color: white;
+    color: rgb(145, 84, 49);
+}
+
+.Lwrtítulo {
+    text-align: center;
+    color: rgb(75, 47, 6);
+}
+
+.Lwrformulario {
+    text-align: center;
+    color: rgb(94, 52, 24);
+}
+
+fieldset {
+    border: 2px solid #382405;
+    border-radius: 10px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    border: 2px dashed #412906;
+    border-radius: 5px;
+}
+
+fieldset:hover {
+    border-color: rgb(145, 84, 49);
+    box-shadow: 0 0 10px rgb(145, 84, 49);
+}
+
+.Lwrformulario1 {
+    color: rgb(112, 61, 32);
+}
+
+button {
+    background-color: rgb(145, 84, 49);
+    color: #bdaf99;
+    border: none;
+    padding: 5px 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3 ease;
+    font-family: initial;
+}
+
+button:hover {
+    background-color: rgb(44, 26, 3);
+}
+
+.inicio {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+a {
+    color: beige;
+    text-decoration: none;
+}
+
+.Link {
+    padding: 10px 20px;
+    background-color: rgb(145, 84, 49);
+    border-radius: 15px;
+}
+
+.Link:hover {
+    background-color: rgb(120, 69, 39);
+    border-radius: 15px;
+    transform: scale(1.1);
+}

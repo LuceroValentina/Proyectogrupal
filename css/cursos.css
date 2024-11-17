@@ -4,3 +4,35 @@
 body {
     background-color: rgb(211, 190, 151);
 }
+
+.nombre h1 {
+    text-align: center;
+    font-family: 'Dancing Script', sans-serif;
+    font-size: 50px;
+    background-color: white;
+    color: rgb(145, 84, 49);
+}
+
+a {
+    color: beige;
+    text-decoration: none;
+}
+
+.LwrLink {
+    padding: 10px 20px;
+    background-color: rgb(145, 84, 49);
+    border-radius: 15px;
+    width: 150px;
+}
+
+.LwrLink:hover {
+    background-color: rgb(163, 102, 67);
+    border-radius: 15px;
+    /*transform: scale(1.1);*/
+}
+
+.Lwrtítulo {
+    text-align: center;
+    color: rgb(75, 47, 6);
+}
+
