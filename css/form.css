@@ -18,6 +18,11 @@ body {
     color: rgb(75, 47, 6);
 }
 
+.Lwrtítulo:hover {
+    color: rgb(120, 69, 39);
+    border-radius: 15px;
+}
+
 .Lwrformulario {
     text-align: center;
     color: rgb(94, 52, 24);
@@ -38,6 +43,49 @@ fieldset:hover {
 
 .Lwrformulario1 {
     color: rgb(112, 61, 32);
+}
+
+
+.Lwrformulario {
+    text-align: center;
+    color: rgb(94, 52, 24);
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-contenedor {
+    position: relative;
+    display: inline-block;
+    width: 30%;
+}
+
+.Lwrformulario input {
+    width: 40%;
+    padding: 10px;
+    outline: none;
+    background: none;    padding-left: 10px;
+    border: 2px solid rgb(145, 84, 49);
+    border-radius: 5px;
+
+}
+
+.Lwrformulario label {
+    position: relative;
+    top: -3px;
+    left: -60px;
+    color: #462405;
+    transform: translateY(-50%);
+    font-size: 14px;
+    transition: all 0.3s ease;
+    pointer-events: none;
+  }
+
+.Lwrformulario input:focus + label,
+.Lwrformulario input:not(:placeholder-shown) + label {
+    top: -10px;
+    left: 5px;
+    font-size: 12px;
+    color: #D498C0;
 }
 
 button {
@@ -77,4 +125,8 @@ a {
     background-color: rgb(120, 69, 39);
     border-radius: 15px;
     transform: scale(1.1);
+}
+
+::placeholder {
+    color: #6d5f45;
 }
