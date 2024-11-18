@@ -10,6 +10,10 @@ body {
     font-family: "Dancing Script", cursive;
 }
 
+a {
+    text-decoration: none;
+    color: #33260E;
+}
 h2 {
     font-family: 'Times New Roman', Times, serif;
 }
