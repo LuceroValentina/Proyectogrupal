@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+body {
+    background-color: #e9ceb6;
+}
+
+.titulo {
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.precio {
+    border-radius: 5%;
+    width: 170px;
+    height: 30px;
+    background-color: #bf9780;
+    margin-left: 3%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    justify-content: center;
+    text-align: center;
+}
+
+img {
+    width: 190px;
+    height: 180px;
+    margin-top: 7%;
+}
+
+.contenedor-carta {
+    display: grid;
+    grid-template-columns: 690px;
+    grid-template-rows: 224px 224px 224px 224px 224px 224px 224px 224px 224px 224px 224px 224px;
+    justify-content: center;
+}
+
+.cuadricula {
+    border-width: 2px;
+    border-style: solid;
+    border-color: #c7ac12;
+    display: flex;
+    margin-top: 2%;
+}
+
+.info {
+    margin-left: 3%;
+    font-size: medium;
+    font-family: 'Lora', serif;
+}
+
+.info h2 {
+    font-family: "Dancing Script", cursive;
+    font-size: x-large;
+}
+
+.imagen {
+    width: 206px;
+    height: 206px;
+    margin-right: 2%;
+}
