@@ -21,7 +21,7 @@ a {
 .contenedor-info {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 2fr 200px;
+    grid-template-rows: 2fr 191px;
 }
 
 .texto {
@@ -44,7 +44,7 @@ a {
 
 h2 {
     font-family: 'Playfair Display', 'Times New Roman';
-    color: #5E5544;
+    color: rgb(145, 84, 49);
 }
 
 p {
@@ -61,6 +61,11 @@ p {
     text-align: center;
     margin-top: 10px;
     grid-row: 2/3;
+}
+
+.LwrLink a {
+    font-family: 'Playfair Display', 'Times New Roman';
+    font-size: 20px;
 }
 
 .LwrLink:hover {
