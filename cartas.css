@@ -5,9 +5,15 @@ body {
     background-color: #e9ceb6;
 }
 
-.titulo {
+.bienvenida {
     text-align: center;
     font-family: "Dancing Script", cursive;
+}
+
+.click {
+    font-family: 'Lora', sans-serif;
+    text-align: center;
+    font-size: small;
 }
 
 a {

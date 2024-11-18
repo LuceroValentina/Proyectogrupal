@@ -4,7 +4,9 @@
 body {
     background-color: rgb(211, 190, 151);
 }
-
+.contenedor-imagenes{
+    display: grid;
+}
 .box {
     margin-bottom: 35px;
     height: 180px;
